@@ -21,5 +21,5 @@ print (f"subcadena con indice en la posicion [-5]: {substrings}")
 substrings = Cadena[1:3:9]
 print (f"subcadena con indice en la posicion y salto [1:3:9]: {substrings}")
 
-substrings = Cadena[::3]
-print (f"subcadena con indice en la posicion y salto [::2]: {substrings}")
+substrings = Cadena[::-1]
+print (f"subcadena con indice en la posicion y salto [::-1]: {substrings}")
