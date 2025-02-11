@@ -42,4 +42,4 @@ elif operador == 7:
     numero %= float(input("Introduce el segundo numero: "))
     print("El resto de los numeros es: ",numero)
 else:
-    print("Ese numero no es una opcion")
+    print("Ese numero no es una opcion, vuelva a intentarlo")
