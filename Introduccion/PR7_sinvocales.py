@@ -23,3 +23,18 @@ for caracter in cadena_min:
         continue
     else:
         print(caracter, end="")
+'''
+# Solicitamos una frase al usuario
+frase = input("Introduce una frase: ")
+frase = frase.lower()
+
+# Definimos las vocales que queremos eliminar
+vocales = "aeiou"
+
+# Recorremos cada vocal y la eliminamos de la frase
+for vocal in vocales:
+    frase = frase.replace(vocal, "")
+
+print("Frase sin vocales:", frase)
+
+'''
