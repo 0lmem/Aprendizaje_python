@@ -4,6 +4,8 @@
     2- Se recorre la frase letra por letra
     3- Se imprime cada letra
 '''
+#El bucle for recorre la cadena letra por letra.
+#En cada iteración, la variable letra toma el valor del carácter actual de la cadena y se imprime.
 print("Ejemplo de for: ")
 frase = "Hola Mundo"
 
