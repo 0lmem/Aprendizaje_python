@@ -23,7 +23,10 @@ for caracter in cadena_min:
         continue
     else:
         print(caracter, end="")
+
 '''
+Otra solucion del ejercicio:
+
 # Solicitamos una frase al usuario
 frase = input("Introduce una frase: ")
 frase = frase.lower()
