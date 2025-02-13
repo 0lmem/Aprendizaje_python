@@ -19,12 +19,12 @@ print("\nFin del programa")
 Otra forma de hacerlo es:
 
 string = input("Introduce una frase: ") # agregamos la palabra "Hola"
-for letra in string:
-string_invertido = letra + string_invertido      en la segunda iteracion se agrega la letra                   
-print(string_invertido)                          y asi hasta terminar de recorrer la palabra "Hola"
+for letra in string:                             
+string_invertido = letra + string_invertido                      
+print(string_invertido)                          
 
 # Al final dentro de la variable string_invertido se almacenara la cadena "aloH"
-# porque al sumar las letras se hac de esta manera "H" + "" = "H" luego "o" + "H" = "oH" y asi sucesivamente
+# porque al sumar las letras se hace de esta manera "H" + "" = "H" luego "o" + "H" = "oH" y asi sucesivamente
 
 En este ejemplo vamos agregando los caracteres de la cadena string a la variable string_invertido para que se
 almacene de forma inversa gracias a que con el bucle for vamos pasando letra por letra y se va agregando a string-invertido
