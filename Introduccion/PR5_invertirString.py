@@ -19,10 +19,8 @@ print("\nFin del programa")
 Otra forma de hacerlo es:
 
 string = input("Introduce una frase: ") # agregamos la palabra "Hola"
-string_invertido = ""
 for letra in string:
-    string_invertido = letra + string_invertido #En la primera iteracion el string_invertido tendra la letra "H" 
-                                                 en la segunda iteracion se agrega la letra "o" 
+string_invertido = letra + string_invertido      en la segunda iteracion se agrega la letra                   
 print(string_invertido)                          y asi hasta terminar de recorrer la palabra "Hola"
 
 # Al final dentro de la variable string_invertido se almacenara la cadena "aloH"
