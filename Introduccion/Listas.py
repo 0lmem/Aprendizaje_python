@@ -18,7 +18,8 @@ Para acceder a los elementos de una lista se utiliza el índice del elemento.
 '''
 print("\nAcceder a elementos de una lista:")
 lista_numerica = [1, 2, 3, 4, 5]
-print(f"\nPrimer elemento de la lista: {lista_numerica[0]}")
+print(f"\nElementos de la lista: {lista_numerica}")
+print(f"Primer elemento de la lista: {lista_numerica[0]}")
 print(f"Muestra varios elementos de la lista: {lista_numerica[:3]}")
 print(f"Último elemento de la lista: {lista_numerica[-1]}")
 print(f"Muestra todos los elementos de la lista: {lista_numerica[:]}")
@@ -38,3 +39,75 @@ print(f"Modificamos de la posicion 1 a 3: {lista}")
 lista[:5] = ["a", "e", "I", "O"]
 print(f"Modificamos de la posicion 0 a 5: {lista}")
 
+'''
+Agregar elementos a una lista con el metodo append() e insert():
+El metodo append() nos permite agregar un elemento al final de una lista.
+El metodo insert() nos permite agregar un elemento en una posición específica de la lista.
+'''
+print("\nAgregar elementos a una lista con append():")
+lista = ["Hola", "Mundo"]
+print(f"\nLista original: {lista}")
+lista.append("Python")
+print(f"Lista con append: {lista}")
+
+print("\nAgregar elementos a una lista con insert():")
+lista = ["Hola", "Mundo"]
+print(f"\nLista original: {lista}")
+lista.insert(1, "Python")
+print(f"Lista con insert: {lista}")
+
+'''
+Eliminar elementos de una lista con el metodo remove(), pop() y del:
+El metodo pop() nos permite eliminar un elemento de una lista utilizando el índice del elemento.
+El metodo remove() nos permite eliminar un elemento de una lista.
+del nos permite eliminar un elemento de una lista utilizando el índice del elemento.
+'''
+
+print("\nEliminar elementos de una lista con pop(), remove() y del:")
+lista = ["a", "b", "c", "d", "e"]
+print(f"\nLista original: {lista}")
+lista.pop(2)
+print(f"Eliminamos el elemento en la posicion 2: {lista}")
+lista.remove("b")
+print(f"Eliminamos el elemento b: {lista}") 
+lista.insert(1,"b")
+lista.insert(2,"c")
+print(f"Restauramos la lista: {lista}")
+del lista[0:3]
+print(f"Eliminamos los elementos de la posicion 0 a 3: {lista}")
+
+'''
+Invertir una lista con el metodo reverse():
+El metodo reverse() nos permite invertir el orden de los elementos de una lista.
+'''
+
+print("\nInvertir una lista con reverse():")
+lista = ["a", "b", "c", "d", "e"]
+print(f"\nLista original: {lista}")
+lista.reverse()
+print(f"Lista invertida: {lista}")
+
+
+'''
+Ordenar una lista con el metodo sort():
+El metodo sort() nos permite ordenar los elementos de una lista.
+'''
+
+print("\nOrdenar una lista con sort():")
+lista = [4, 2, 1, 3, 5]
+print(f"\nLista original: {lista}")
+lista.sort()
+print(f"Lista ordenada: {lista}")
+lista.sort(reverse=True)
+print(f"Lista ordenada de forma descendente: {lista}")
+
+'''
+Obtener la posición de un elemento con el metodo index():
+El metodo index() nos permite obtener la posición de un elemento en una lista.
+'''
+
+print("\nObtener la posición de un elemento con index():")
+lista = ["a", "b", "c", "d", "e"]
+print(f"\nLista original: {lista}")
+print(f"Posición del elemento 'c': {lista.index('c')}")
+print(f"Posición del elemento 'e' a partir de la posición 3: {lista.index('e', 3)}")
