@@ -7,10 +7,10 @@ Ejericio 7. Programa que pide una cadena de texto y elimina las vocales de la ca
 
 # Pedimos una cadena de texto
 cadena = input("Introduce una cadena de texto: ")
-cadena_min = cadena.lower()
+cadena = cadena.lower()
 
 # Recorremos la cadena y eliminamos las vocales
-for caracter in cadena_min:
+for caracter in cadena:
     if caracter == "a":
         continue
     elif caracter == "e":
