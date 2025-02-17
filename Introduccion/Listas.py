@@ -111,3 +111,26 @@ lista = ["a", "b", "c", "d", "e"]
 print(f"\nLista original: {lista}")
 print(f"Posición del elemento 'c': {lista.index('c')}")
 print(f"Posición del elemento 'e' a partir de la posición 3: {lista.index('e', 3)}")
+
+'''
+Concatenar listas con el metodo extend():
+dado que las listas son mutables, podemos concatenar dos listas utilizando el metodo extend().
+'''
+
+print("\nConcatenar listas con extend():")
+lista1 = ["a", "b", "c"]
+lista2 = ["d", "e", "f"]
+print(f"\nLista 1: {lista1}\nLista 2: {lista2}")
+lista1.extend(lista2)
+print(f"Lista concatenada: {lista1}")
+
+'''
+Sumar elementos de una lista con el metodo sum():
+El metodo sum() nos permite sumar los elementos de una lista.
+'''
+
+print("\nSumar elementos de una lista con sum():")  
+lista = [1, 2, 3, 4, 5]
+print(f"\nLista original: {lista}")
+suma = sum(lista)
+print(f"Suma de los elementos de la lista: {suma}")
