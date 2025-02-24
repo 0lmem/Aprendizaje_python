@@ -21,5 +21,5 @@ print(lista_anidada)
 print(lista_anidada[1][3][1])
 
 '''
-Matrices 
+Matrice
 '''
